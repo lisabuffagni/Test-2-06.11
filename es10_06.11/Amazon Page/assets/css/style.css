@@ -1,0 +1,183 @@
+/* Your styles here */
+body {
+    background-color: #E9EDEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* header */
+
+header, footer div:last-of-type {
+    background-color: #222F3F;
+}
+
+header img {
+    width: 7rem;
+    padding: 0.5em;
+    padding-left: 1.5em;
+}
+
+nav, footer div:first-of-type {
+    background-color: #364759;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav, span {
+    padding: 0.5em;
+}
+
+nav {
+    padding-left: 1.5em;
+}
+
+
+
+/* article */
+
+article div {
+    color: white;
+}
+
+article > div:first-of-type {
+    background-color: #F46600;
+    margin: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+article > div:last-of-type {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/bg-image.png);
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 12em;
+    text-align: center;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+h2 {
+    padding-bottom: 2em;
+}
+
+/*seconda parte*/
+
+article > section {
+    background-color: white;
+    height: 25em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 1em;
+}
+
+.touchpad {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_1.jpg);
+}
+
+.vase {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_2.jpg);
+}
+.watch {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_3.jpg);
+}
+.pets {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_4.jpg);
+}
+
+.touchpad, .vase, .watch, .pets {
+    float: left;
+    height: 22em;
+    width: 18em;
+    border-radius: 1em;
+    background-size: cover;
+    background-position: center;
+    margin: 0.9em;
+    box-shadow: 1px 1px 5px #364759;
+}
+
+.pets {
+    margin-right: 0;
+}
+
+section span {
+    display: block;
+    padding: 1 em;
+    font-weight: 550;
+}
+
+
+
+/* aside */
+
+aside section {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+aside div {
+    height: 30em;
+    width: 100%;
+}
+
+.img1 {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_9.png);
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+}
+
+.img2 {
+    background-image: url(/es10_06.11/Amazon\ Page/assets/images/img_10.png);
+    background-size: cover;
+    background-position: center;
+    height: 20;
+}
+
+a {
+    color: #0B4E52;
+    font-weight: 600;
+    font-size: small;
+    padding-left: 1em;
+    padding-right: 1 em;
+    text-decoration: none;
+}
+
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+footer div:first-of-type {
+    padding: 1em;
+}
+
+footer a{
+    color: white;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+footer img {
+    width: 10em;
+    padding: 3em;
+    padding-bottom: 4em;
+}
+
+
